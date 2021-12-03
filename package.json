@@ -10,7 +10,7 @@
   "license": "MIT",
   "description": "Droblox template game",
   "dependencies": {
-    "@rbxts/droblox-core": "file:../rbxts-droblox-core-0.1.0.tgz",
+    "@rbxts/droblox-core": "^0.1.0",
     "@rbxts/object-utils": "^1.0.4",
     "@rbxts/roact": "^1.4.0-ts.2",
     "@rbxts/roact-studio-components": "^0.0.23",
