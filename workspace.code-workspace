@@ -1,0 +1,95 @@
+{
+  "folders": [
+    {
+      "name": "root",
+      "path": "./"
+    },
+  ],
+  "extensions": {
+    "recommendations": [
+      "actboy168.tasks",
+      /* Roblox */
+      "be5invis.toml",
+      "evaera.vscode-rojo",
+      "johnnymorganz.stylua",
+      "nightrains.robloxlsp",
+      "kampfkarren.selene-vscode",
+      /* Javascript */
+      "esbenp.prettier-vscode",
+      "dbaeumer.vscode-eslint",
+      "sburg.vscode-javascript-booster"
+    ]
+  },
+  "settings": {
+    /* Git */
+    "git.ignoreLimitWarning": true,
+    /* Roblox */
+    "rojo.releaseBranch": "7.x",
+    "rojo.enableTelemetry": false,
+    "rojo.pluginManagement": false,
+    /* Javascript */
+    "debug.javascript.unmapMissingSources": true,
+    /* Typescript */
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "typescript.suggestionActions.enabled": true,
+    "typescript.autoClosingTags": false,
+    /* Javascript / Typescript */
+    "javascript.inlayHints.parameterNames.enabled": "all",
+    "typescript.inlayHints.parameterNames.enabled": "all",
+    "typescript.inlayHints.enumMemberValues.enabled": true,
+    "javascript.inlayHints.enumMemberValues.enabled": true,
+    "javascript.preferences.importModuleSpecifier": "project-relative",
+    "typescript.preferences.importModuleSpecifier": "project-relative",
+    /* Lua */
+    "Lua.completion.callSnippet": "Both",
+    "Lua.diagnostics.enable": false,
+    // Disable default formatting (ESLint formatting will be used instead)
+    "[javascript]": {
+      "editor.formatOnSave": false
+    },
+    "[javascriptreact]": {
+      "editor.formatOnSave": false
+    },
+    "[typescript]": {
+      "editor.formatOnSave": false
+    },
+    "[typescriptreact]": {
+      "editor.formatOnSave": false
+    },
+    // Auto-fix issues with ESLint when you save code changes
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    /* ESLint */
+    "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
+    "eslint.workingDirectories": [
+      {
+        "mode": "auto"
+      }
+    ],
+    /* Editor */
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    /* Excludes */
+    "files.exclude": {
+      /* Roblox */
+      "*.rbxlx.lock": true,
+      "*.rbxl.lock": true,
+      "**/roblox.toml": true,
+      "**/include/": true,
+      /* NodeJS */
+      "node_modules/": true,
+      "packages/": true,
+      /* Vscode */
+      "**/.vscode": false,
+      /* Build */
+      "**/out-release/": true,
+      "**/out/": true,
+      /* Misc */
+      "*.tmp": true,
+      "*.old": true,
+      "*.bak": true
+    },
+    "roblox-ts.command.status.show": false
+  }
+}

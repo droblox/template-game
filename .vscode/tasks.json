@@ -1,0 +1,29 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Dev: Droblox Template Game",
+      "type": "shell",
+      "windows": {
+        "command": "npx",
+        "args": ["rbxtsc", "-w"]
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      },
+      "problemMatcher": {
+        "owner": "custom",
+        "pattern": {
+          "regexp": " error "
+        },
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": "^.*File change detected.*$",
+          "endsPattern": "^.*Watching for file changes.*$"
+        }
+      },
+      "isBackground": true
+    }
+  ]
+}

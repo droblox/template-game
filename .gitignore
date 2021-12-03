@@ -1,0 +1,14 @@
+/node_modules
+
+include
+*.tsbuildinfo
+
+roblox.toml
+/*.rbxl.lock
+/*.rbxlx.lock
+
+out-release
+out
+
+*.rbxm
+*.old
