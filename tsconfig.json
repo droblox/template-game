@@ -20,6 +20,6 @@
     "declaration": true,
 
     // monorepo
-    "rootDirs": ["./src"]    
+    "rootDirs": ["./src"]
   }
 }

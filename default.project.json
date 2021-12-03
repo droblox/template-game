@@ -6,7 +6,7 @@
     "ServerScriptService": {
       "$className": "ServerScriptService",
       "DrobloxTemplateGame": {
-        "$path": "out/src/server"
+        "$path": "out/server"
       }
     },
     "ReplicatedStorage": {
@@ -18,7 +18,7 @@
         }
       },
       "DrobloxTemplateGame": {
-        "$path": "out/src/shared"
+        "$path": "out/shared"
       }
     },
     "StarterPlayer": {
@@ -26,7 +26,7 @@
       "StarterPlayerScripts": {
         "$className": "StarterPlayerScripts",
         "DrobloxTemplateGame": {
-          "$path": "out/src/client"
+          "$path": "out/client"
         }
       }
     },

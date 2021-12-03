@@ -2,10 +2,15 @@
   "name": "droblox-template-game",
   "version": "0.1.0",
   "author": "Komerdoor",
-  "keywords": ["droblox", "template", "game"],
+  "keywords": [
+    "droblox",
+    "template",
+    "game"
+  ],
   "license": "MIT",
   "description": "Droblox template game",
   "dependencies": {
+    "@rbxts/droblox-core": "file:../rbxts-droblox-core-0.1.0.tgz",
     "@rbxts/object-utils": "^1.0.4",
     "@rbxts/roact": "^1.4.0-ts.2",
     "@rbxts/roact-studio-components": "^0.0.23",
