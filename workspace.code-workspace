@@ -1,9 +1,8 @@
 {
   "folders": [
     {
-      "name": "root",
-      "path": "./"
-    },
+      "path": "."
+    }
   ],
   "extensions": {
     "recommendations": [
